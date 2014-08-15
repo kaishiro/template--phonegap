@@ -1,5 +1,5 @@
 ```
-git clone https://github.com/kaishiro/template-middleman.git www
+git clone https://github.com/kaishiro/template-phonegap.git www
 
 rm -rf .git
 
@@ -18,12 +18,4 @@ git commit -m "Initial Commit"
 git remote add [github | bitbucket] [https://github.com... | https://bitbucket.org...]
 
 git push [github | bitbucket] master
-
-heroku apps:create SITE-NAMESPACE
-
-heroku config:set BUILDPACK_URL=https://github.com/kaishiro/heroku-buildpack-multi.git
-
-# Create any additional config vars on Heroku
-
-git push heroku master
 ```

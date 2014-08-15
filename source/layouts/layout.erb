@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<%= partial "html" %>
+
+  <head>
+
+    <%= partial "head/meta" %>
+
+    <%= partial "head/link" %>
+
+    <%= partial "head/css" %>
+
+    <%= partial "head/js" %>
+
+    <%= partial "head/title" %>
+
+  </head>
+  
+  <body>
+
+    <%= yield %>
+
+    <%= partial "foot/js" %>
+
+  </body>
+</html>
